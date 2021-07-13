@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.codurance.HTMLParserShould2" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-07-13T17:28:20" hostname="Toms-MacBook-Pro-2.local" time="0.047">
+<testsuite name="com.codurance.HTMLParserShould2" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-07-13T17:31:37" hostname="Toms-MacBook-Pro-2.local" time="0.051">
   <properties/>
-  <testcase name="getsContentFromParagraph()" classname="com.codurance.HTMLParserShould2" time="0.047"/>
+  <testcase name="getsContentFromParagraphWithoutClosingParagraph()" classname="com.codurance.HTMLParserShould2" time="0.049"/>
+  <testcase name="getsContentFromParagraph()" classname="com.codurance.HTMLParserShould2" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

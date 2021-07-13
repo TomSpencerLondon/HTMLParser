@@ -22,5 +22,11 @@ public class HTMLParserShould2 {
     assertThat(content).isEqualTo("hello");
   }
 
-
+  @Test
+  void getsContentFromParagraphWithoutClosingParagraph() {
+    String content = htmlParser.findParagraph(
+        "<p>hello"
+    );
+    assertThat(content).isEqualTo("hello");
+  }
 }
