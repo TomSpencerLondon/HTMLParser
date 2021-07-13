@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.codurance.HTMLParserShould" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-07-06T17:22:36" hostname="Toms-MacBook-Pro-2.local" time="0.084">
-  <properties/>
-  <testcase name="getsContentFromTwoParagraphs()" classname="com.codurance.HTMLParserShould" time="0.081"/>
-  <testcase name="getsContentFromThreeParagraphs()" classname="com.codurance.HTMLParserShould" time="0.001"/>
-  <testcase name="getsContentFromParagraph()" classname="com.codurance.HTMLParserShould" time="0.001"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

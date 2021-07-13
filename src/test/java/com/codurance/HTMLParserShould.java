@@ -64,4 +64,23 @@ public class HTMLParserShould {
 
     assertThat(content).isEqualTo("good morning\ngood afternoon\ngood evening");
   }
+
+  @Test
+  void returns_paragraphsEvenIfOneParagraphDoesNotSelfClose() {
+    String content = htmlParser.findParagraph("<!DOCTYPE html>\n" +
+        "<html lang=\"en\">\n" +
+        "<head>\n" +
+        "    <meta charset=\"UTF-8\">\n" +
+        "    <title>Title</title>\n" +
+        "</head>\n" +
+        "<body>\n" +
+        "    <p>good morning\n" +
+        "    <p>good afternoon</p>\n" +
+        "    <p>good evening</p>\n" +
+        "</body>\n" +
+        "</html>");
+
+    assertThat(content).isEqualTo("good morning\ngood afternoon\ngood evening");
+
+  }
 }
