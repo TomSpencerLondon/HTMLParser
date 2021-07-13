@@ -29,4 +29,13 @@ public class HTMLParserShould2 {
     );
     assertThat(content).isEqualTo("hello");
   }
+
+  @Test
+  void getsContentFromTwoParagraphs() {
+    String content = htmlParser.findParagraph(
+        "<p>hello</p>" +
+             "<p>goodbye</p>"
+    );
+    assertThat(content).isEqualTo("hello goodbye");
+  }
 }
